@@ -4,8 +4,14 @@ languageCode = "en-us"
 title = "acupuncture for fertility, acupuncture for anxiety, pain, sciatica, insomnia, Stress Relief, Cupping therapy, HMO plan, acupuncture work for weight loss, acupuncture for vertigo, acupuncture for women's health, acupuncture for headaches, acupuncture for tinnitus, chinese medicine, acupuncture, herb medicine, tcm, tcm near me, acupuncture therapist near me, los angeles, acupuncture culver city, acupuncture mar vista, acupuncture santa monica, pain, Lower back pain, acupuncture for sciatica, Neck pain, Shoulder pain, Golfer’s elbow, Tennis elbow, Tenosynovitis, Carpal Tunnel Syndrome, Knee pain, Headache, Internal organs pain, lung diseases, COPD, lung fibrosis, bronchitis, Lung infection, Lung cancer, Obstetric Gynecology, Irregular menstruation, Painful menstruation, PMS, Infertility, Postpartum abdominal pain, Mastitis, Menopause, Gastrointestinal issues, Constipation, Diarrhea and Abdominal pain from IBS, Ulcerative Colitis, Chron’s Disease, Nausea/Vomiting, Heart issues, Immune system disease, Stress and Anxiety, Hyperlipidemia, High blood sugar, Bell's palsy, Insomnia, Fatigue, Vertigo, TMJ, weight loss, Hypotension, fibromyalgia, Dyspnea, Sinusitis, Sore throats, Urinary Incontinence, Edema, Hemorrhoid, Ting Xie, PHD LAC, How Acupuncture Boosts Health, Acupuncture for Sciatica Relief in Los Angeles"
 theme = "hargo"
 summaryLength = "20"
-paginate = 10
 disqusShortname = ""
+[pagination]
+  pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 ############################# Plugins ##############################
 [params.plugins]
