@@ -1,0 +1,24 @@
+############################# contact info ################
+contact:
+  enable : true
+  # office
+  office:
+    title : "Central Office"
+    content : "Central Office"
+    # other information comes from "config.toml"
+
+  # opennig hour
+  opennigHour:
+    title : "Opening Hours"
+    dayTimeList:
+      - dayTime : "Monday: 8:30am – 5:00pm"
+      - dayTime : "Tuesday: 8:30am – 5:00pm"
+      - dayTime : "Wednesday: 8:30am – 5:00pm"
+      - dayTime : "Thursday: 1:00pm – 5:00pm"
+      - dayTime : "Friday: 8:30am – 5:00pm"
+      - dayTime : "Saturday: 1:00pm – 5:00pm"
+      - dayTime : "Sunday: closed"
+
+####################### google map ########################
+map:
+  enable: true

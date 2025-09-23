@@ -1,0 +1,206 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Choose TCMFIT Confidently."
+  content: |
+    Whether it’s a recent sports injury, chronic pain condition, stress, trouble sleeping, lung diseases, fertility, hormone balance, digestive issues, we are here to help. TCMFIT aims to help restore balance to the mind and body.  
+
+    **TCMFIT accepts many types of health insurance plans, including Kaiser, Blue Shield, HealthNet, Aetna, Anthem, Cigna, Medrisk, and more**. Please obtain a PCP referral with a covered diagnostic code to guarantee insurance coverage for acupuncture service if insurance requires. **Insurance usually will only cover acupuncture for treating the symptoms listed in your referral letter**. Please send the following information **ONLY** to **info@tcmfit.com** for the **insurance eligibility check before booking your acupuncture with insurance initial appointment (or you will need to self-pay for the session)**.  
+
+    * Photos of the front and back of your insurance card  
+    * Patient's date of birth  
+    * Primary care physician referral letter (photocopy if required)  
+
+    For initial appointments, please fill 3 forms before you come (or **$30** fee):  
+    - [Informed consent form](https://docs.google.com/forms/d/e/1FAIpQLSdzcsRWo0M16MsuniQzuztHRfI3IwDspZyppHqppaQbu3VNaw/viewform?usp=sf_link)  
+    - [New patient registration](https://docs.google.com/forms/d/e/1FAIpQLScNHKePAIRP6ihh2hyipd526qXZ8mzEZCzeBjYjeoxGQTrnZw/viewform?usp=sf_link)  
+    - [Traditional Chinese Medicine Questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSdHhpfJwBabpmSL3lz4eDu7to9fnygBat2JZTB4oDMMDbTWDw/viewform?usp=sf_link)  
+
+    For follow-up appointments, please fill the forms listed below before you come:  
+    - [Informed consent form for every treatment](https://docs.google.com/forms/d/e/1FAIpQLSdzcsRWo0M16MsuniQzuztHRfI3IwDspZyppHqppaQbu3VNaw/viewform?usp=sf_link)  
+    - [Progress form as needed](https://docs.google.com/forms/d/e/1FAIpQLSezmTfNbTrtNuld2oqpH2zxe7jTNlDPD1Nh98N-cX9yjRFHRw/viewform?usp=sf_link)  
+    - [Medical Necessity Review (MNR) form as needed](https://docs.google.com/forms/d/e/1FAIpQLSfKishqdSKsiPPHGkL1PITRQGfOetCAxgjAfP1juGrm3jZM0w/viewform?usp=sf_link) (Member is eligible for 5 visits without submission of an MNR form)  
+
+    **Late cancel (<24h) or no-show fee $40**  
+
+    Wear loose clothes, eat beforehand, shower & use restroom before coming (wait 1hr to shower after).  
+
+    Street parking; clinic is a white 2-story building in backyard off Kelton Ave.
+  image : "images/banner.png"
+  # button
+  button:
+    enable : true
+    label : "Schedule An Appointment"
+    link : "https://tingxiephdlac.setmore.com/"
+  # demo video
+  video:
+    enable : false
+    videoURL : "https://www.youtube.com/channel/UCofpC95SHvR5K_90xw7qBtA"
+
+###################### Call to action ########################
+cta:
+  enable : false
+  title : "Buy one Get One Free Taba Cream"
+  content : "Available for limited time only. Grab one while you still can!"
+  image : "images/cta.png"
+  overlayImage : "images/cta-overlay.png"
+  button:
+    label : "All Services"
+    link : "products"
+
+######################## raw material #######################
+material:
+  enable : true
+  title : "Specialties"
+  subtitle : ""
+  materialItem:
+    # material item loop
+    - title : "Pain"
+      content : "Lower back pain, Sciatica, Neck pain, Shoulder pain, Golfer's elbow, Tennis elbow, Tenosynovitis, Carpal Tunnel Syndrome, Knee pain,  Headache, Internal organs pain"
+      button:
+        enable : true
+        label : "Schedule An Appointment"
+        link : "https://tingxiephdlac.setmore.com"
+      
+    # material item loop
+    - title : "Lung diseases"
+      content : "COPD, lung fibrosis, bronchitis, Lung infection, Lung cancer"
+      button:
+        enable : true
+        label : "Schedule An Appointment"
+        link : "https://tingxiephdlac.setmore.com"
+      
+    # material item loop
+    - title : "Obstetric Gynecology"
+      content : "Irregular menstruation, Painful menstruation, PMS, Infertility, Postpartum abdominal pain, Mastitis, Menopause"
+      button:
+        enable : true
+        label : "Schedule An Appointment"
+        link : "https://tingxiephdlac.setmore.com"
+      
+    # material item loop
+    - title : "Gastrointestinal issues"
+      content : "Constipation, Diarrhea and Abdominal pain from IBS, Ulcerative Colitis, Chron's Disease, Nausea/Vomiting"
+      button:
+        enable : true
+        label : "Schedule An Appointment"
+        link : "https://tingxiephdlac.setmore.com"
+
+    # material item loop
+    - title : "Heart issues"
+      content : "Heart Palpitations, Coronary Artery Disease, In-Stent Restenosis after Percutaneous Coronary Intervention for Coronary Artery Disease, High blood pressure."
+      button:
+        enable : true
+        label : "Schedule An Appointment"
+        link : "https://tingxiephdlac.setmore.com"
+
+    # material item loop
+    - title : "Immune system disease"
+      content : "Allergy (Rhinitis, Asthma), Rheumatic arthritis, Ankylosing spondylitis, Thyroid problem, Ulcerative Colitis, Skin Diseases, Chronic Liver Disease"
+      button:
+        enable : true
+        label : "Schedule An Appointment"
+        link : "https://tingxiephdlac.setmore.com"
+
+    # material item loop
+    - title : "Stress and Anxiety"
+      content : "Hormone Imbalance, Sleep Dysfunction, heart problems, low energy, chronic pain, and many others that can be caused by stress and anxiety"
+      button:
+        enable : true
+        label : "Schedule An Appointment"
+        link : "https://tingxiephdlac.setmore.com"
+
+    # material item loop
+    - title : "Other issues"
+      content : "Hyperlipidemia, High blood sugar, Bell's palsy, Insomnia, Fatigue, Vertigo, TMJ, weight loss, Hypotension, fibromyalgia, Dyspnea, Sinusitis, Sore throats, Urinary Incontinence, Edema, Hemorrhoid"
+      button:
+        enable : true
+        label : "Schedule An Appointment"
+        link : "https://tingxiephdlac.setmore.com"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "About Ting Xie, OMD PHD LAC"
+  content : "Dr. Ting Xie received her Bachelor of Medicine degree (OMD) from the prestigious Beijing University of Traditional Chinese Medicine (TCM) in China. Following her hospital externship at the Beijing Hospital of Traditional Chinese Medicine, Dr. Xie pursued a PhD at the same university. Upon earning her PhD, she became a licensed acupuncturist and herbalist of Traditional Chinese Medicine.
+Dr. Xie has extensive experience as an online TCM practitioner and has conducted research on pulmonary diseases at medical centers in the USA. She specializes in treating pulmonary, digestive, cardiovascular, and bone disorders, as well as women's health issues, using acupuncture and traditional Chinese medicine. Additionally, she has authored numerous medical research papers during her tenure in medical centers. Her comprehensive education in both TCM and Western medicine provides her with a unique holistic approach to patient care."
+  image : "images/about.png"
+  button:
+    enable : true
+    label : "All Services"
+    link : "products"
+
+########################### Advantage #########################
+advantage:
+  enable : false
+  title : "Advantages Of Using <br> Our Product"
+  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  image : "images/advantage.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Extremely lightweight"
+    - listItem : "Excellent breathability"
+    - listItem : "Can increase Cell activation"
+    - listItem : "Glowing Skin In 7 Days"
+    - listItem : "Increasing Glow Of Face"
+    - listItem : "More Beautiful Face Skin"
+
+
+######################## Promo Video ##########################
+video:
+  enable : false
+  title : "How To Use This Product?"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+  videoThumb : "images/video-thumb.jpg"
+  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+
+######################## Services #############################
+products:
+  enable : true
+  title : "Services List"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "Testimonials"
+  testimonialItem:
+    # testimonial item loop
+    - name : "anonymous"
+      designation : "asthma"
+      content : "I have struggled with asthma for many years, and despite using various western medications and inhalers, my condition did not significantly improve. I am very grateful to have found Ting Xie, Phd L.Ac. She took the time to thoroughly review my medical history and symptoms. Through her acupuncture and Chinese medicine treatments, I experienced significant relief; my breathing became smoother, and my persistent cough subsided. This allowed me to enjoy better sleep and rest. Additionally, her treatments strengthened my immune system, giving me more vitality and energy."
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "anonymous"
+      designation : "Online patient, swollen feet"
+      content : "I had been struggling with swollen feet for some time, and despite seeking treatment at the hospital, the swelling persisted. I decided to consult Ting Xie, Phd L.Ac., who prescribed a regimen of Chinese medicine. Remarkably, within just three days of starting the treatment, the swelling in my feet was significantly reduced. Although the taste of the medicine is quite bitter, its effectiveness is undeniable. I am extremely grateful for Ting Xie's expertise and the remarkable results."
+      rating : "five" # rating star, one to five
+
+    # testimonial item loop
+    - name : "anonymous"
+      designation : "Online patient, pneumonia"
+      content : "I was diagnosed with pneumonia and, despite taking prescribed medication, my condition worsened, leading to hospitalization. With my doctor's consent, Ting Xie, Phd L.Ac., prescribed Chinese medicine to complement my treatment. The combination of Western and Chinese medicine significantly improved my condition. I no longer needed the bronchoscopy I had been dreading and was discharged from the hospital sooner than expected. I feel incredibly fortunate to have received Ting's expert care and support."
+      rating : "five" # rating star, one to five
+
+    # testimonial item loop
+    - name : "anonymous"
+      designation : "fatigue and a lack of motivation"
+      content : ".I was struggling with fatigue and a lack of motivation, which prompted me to visit the hospital. The diagnosis revealed a thyroid problem. A friend recommended Ting Xie, Phd L.Ac., and I decided to give her a try. Ting carefully assessed my condition, prescribed Chinese medicine in the form of granules, and helped me identify the root cause of my thyroid issues. Under her care, I noticed a significant improvement in my overall health, and my subsequent blood tests returned to normal levels.
+      Later, I experienced severe abdominal pain and once again turned to Ting for help. She prescribed another course of Chinese medicine in the form of pills, which effectively alleviated my pain. Ting’s expertise and compassionate care have made a tremendous difference in my life. I am incredibly grateful to have found such a knowledgeable and dedicated practitioner. Thank you, Ting!"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "anonymous"
+      designation : "chest tightness and frequent nighttime urination"
+      content : "I have a stent in my heart but continued to experience occasional chest tightness and frequent nighttime urination, both of which severely impacted my sleep and overall well-being. A friend recommended Ting Xie, Phd LAc, and I decided to seek her help. Ting prescribed a course of Chinese medicine, and the results have been remarkable. Not only has my chest tightness significantly improved, but the frequency of my nighttime urination has also greatly decreased. My sleep quality has improved substantially, and I feel much more comfortable and rested. I am deeply grateful to Ting for her expertise and care."
+      rating : "five" # rating star, one to five
+
+    # testimonial item loop
+    - name : "anonymous"
+      designation : "high blood"
+      content : "I have struggled with high blood lipid levels despite diligently dieting and exercising. However, since starting treatment with Ting Xie, Phd L.Ac., my blood lipids have returned to normal levels. Her expertise in traditional Chinese medicine helped identify and address the root cause of my condition. Thanks to Ting's knowledgeable and compassionate care, I am thrilled to see such significant improvements in my health."
+      rating : "five" # rating star, one to five

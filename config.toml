@@ -1,0 +1,143 @@
+######################## default configuration ####################
+baseURL = "https://tcmfit.com"
+languageCode = "en-us"
+title = "acupuncture for fertility, acupuncture for anxiety, pain, sciatica, insomnia, Stress Relief, Cupping therapy, HMO plan, acupuncture work for weight loss, acupuncture for vertigo, acupuncture for women's health, acupuncture for headaches, acupuncture for tinnitus, chinese medicine, acupuncture, herb medicine, tcm, tcm near me, acupuncture therapist near me, los angeles, acupuncture culver city, acupuncture mar vista, acupuncture santa monica, pain, Lower back pain, acupuncture for sciatica, Neck pain, Shoulder pain, Golfer’s elbow, Tennis elbow, Tenosynovitis, Carpal Tunnel Syndrome, Knee pain, Headache, Internal organs pain, lung diseases, COPD, lung fibrosis, bronchitis, Lung infection, Lung cancer, Obstetric Gynecology, Irregular menstruation, Painful menstruation, PMS, Infertility, Postpartum abdominal pain, Mastitis, Menopause, Gastrointestinal issues, Constipation, Diarrhea and Abdominal pain from IBS, Ulcerative Colitis, Chron’s Disease, Nausea/Vomiting, Heart issues, Immune system disease, Stress and Anxiety, Hyperlipidemia, High blood sugar, Bell's palsy, Insomnia, Fatigue, Vertigo, TMJ, weight loss, Hypotension, fibromyalgia, Dyspnea, Sinusitis, Sore throats, Urinary Incontinence, Edema, Hemorrhoid, Ting Xie, PHD LAC, How Acupuncture Boosts Health, Acupuncture for Sciatica Relief in Los Angeles"
+theme = "hargo"
+summaryLength = "20"
+paginate = 10
+disqusShortname = ""
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  link = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  link = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  link = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  link = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  link = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  link = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  link = "plugins/google-map/gmap.js"
+
+  
+############################## navigation ###############################
+[menu]
+    
+  [[menu.main]]
+  name = "Services"
+  URL = "products"
+  weight = 1
+  
+  [[menu.main]]
+  name = "Specialties"
+  URL = "blog"
+  weight = 2
+  
+  [[menu.main]]
+  name = "FAQ"
+  URL = "faq"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 4
+
+  [[menu.main]]
+  name = "Schedule appointment"
+  URL = "https://tingxiephdlac.setmore.com"
+  weight = 5
+
+  ############# footer menu #############
+  [[menu.footer]]
+  name = "Services"
+  URL = "products"
+  weight = 1
+  
+  [[menu.footer]]
+  name = "Stories"
+  URL = "blog"
+  weight = 2
+  
+  [[menu.footer]]
+  name = "FAQ"
+  URL = "faq"
+  weight = 3
+  
+  [[menu.footer]]
+  name = "Terms & Conditions"
+  URL = "terms-conditions"
+  weight = 4
+  
+  [[menu.footer]]
+  name = "Contact"
+  URL = "contact"
+  weight = 5
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "acupuncture for fertility, acupuncture for anxiety, pain, sciatica, insomnia, Stress Relief, Cupping therapy, HMO plan, acupuncture work for weight loss, acupuncture for vertigo, acupuncture for women's health, acupuncture for headaches, acupuncture for tinnitus, chinese medicine, acupuncture, herb medicine, tcm, tcm near me, acupuncture therapist near me, los angeles, acupuncture culver city, acupuncture mar vista, acupuncture santa monica, pain, Lower back pain, acupuncture for sciatica, Neck pain, Shoulder pain, Golfer’s elbow, Tennis elbow, Tenosynovitis, Carpal Tunnel Syndrome, Knee pain, Headache, Internal organs pain, lung diseases, COPD, lung fibrosis, bronchitis, Lung infection, Lung cancer, Obstetric Gynecology, Irregular menstruation, Painful menstruation, PMS, Infertility, Postpartum abdominal pain, Mastitis, Menopause, Gastrointestinal issues, Constipation, Diarrhea and Abdominal pain from IBS, Ulcerative Colitis, Chron’s Disease, Nausea/Vomiting, Heart issues, Immune system disease, Stress and Anxiety, Hyperlipidemia, High blood sugar, Bell's palsy, Insomnia, Fatigue, Vertigo, TMJ, weight loss, Hypotension, fibromyalgia, Dyspnea, Sinusitis, Sore throats, Urinary Incontinence, Edema, Hemorrhoid, Ting Xie, PHD LAC, How Acupuncture Boosts Health, Acupuncture for Sciatica Relief in Los Angeles"
+author = "Themefisher"
+# google map
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDugMw2sRiBP-82icA6wOyIcvJcIAIBZOM&libraries=places"
+mapLatitude = "34.018229"
+mapLongitude = "-118.413816"
+mapMarker = "images/marker.png"
+# Google Analitycs
+googleAnalitycsID = "AW-16625681385" # Your ID
+# Contact Information
+mobile = "(310)-218-8728"
+email = "info@tcmfit.com"
+location = "3667 Kelton Ave. Los Angeles, CA 90034"
+# copyright
+copyright = "| Copyright &copy; 2024 https://tcmfit.com All Rights Reserved |"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # Product Rating
+  # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
+  [params.rating]
+  enable = false
+  websiteID = "444334"
+  publicKey = "811cf0927332bf51f2e12f84608594ac"
+
+  # Social Site
+  [[params.social]]
+  icon = "ti-facebook"
+  link = "https://www.facebook.com/profile.php?id=61561159667463&mibextid=LQQJ4d"
+  
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  link = "#"
+  
+  [[params.social]]
+  icon = "ti-youtube"
+  link = "https://www.youtube.com/channel/UCofpC95SHvR5K_90xw7qBtA"
+  
+  [[params.social]]
+  icon = "ti-instagram"
+  link = "#"
+  
+  [[params.social]]
+  icon = "ti-pinterest"
+  link = "#"
+
+  # Contact Form
+  [params.contact]
+  formAction = "https://formspree.io/f/xzbnlprg" # contact form works with formspree.io
