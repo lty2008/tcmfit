@@ -1,0 +1,8 @@
+{
+  "name": "tcmfit",
+  "compatibility_date": "2025-09-23",
+  "type": "webpack",       // optional
+  "assets": {
+    "directory": "./public"
+  }
+}
